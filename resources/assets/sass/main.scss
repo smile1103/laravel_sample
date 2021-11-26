@@ -1,0 +1,69 @@
+body{
+  padding-top: 65px;
+  background-color: white;
+}
+
+.circ{
+
+
+  width : 40px;
+  vertical-align: middle;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff;
+  margin-top: 5px;
+
+}
+.circ:hover{
+  box-shadow: 0 0 0 3px #f00;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+th.active .arrow {
+  opacity: 1;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  opacity: 0.66;
+}
+
+.arrow.asc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid black;
+}
+
+.arrow.dsc {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid black;
+}
+table thead tr th {
+  cursor: pointer;
+}
+
+.for-page-button {
+
+  margin-top:20px;
+  margin-left:20px;
+}
+
+.search-box {
+
+  width: 150px;
+
+}
+
+.number-input {
+
+  border: 1px solid #C3C0C0;
+  width: 60px;
+
+}
